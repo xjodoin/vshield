@@ -1,0 +1,11 @@
+clamd:
+  host: localhost
+  port: 3310
+  
+---
+        
+spring:
+  profiles: production  
+clamd:
+  host: clamav.weave.local
+  port: 3310  
